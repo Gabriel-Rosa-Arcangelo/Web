@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Babel</title>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <script type="text/babel">
+
+            /*let qtde_pernas = 4
+            let giratoria = false
+            let cor = 'azul'
+
+            function girar_cadeira(){
+                if(giratoria === true){
+                    console.log('girou')
+                }else{
+                    console.log('cadeira não gira')
+                }
+            }
+            girar_cadeira()*/
+
+            //oo
+
+            class Cadeira{
+                constructor(qtd, giratoria, cor){ 
+                    this.qtd = qtd
+                    this.giratoria = giratoria
+                    this.cor = cor
+                }
+
+                girarCadeira(){
+                    if(this.giratoria === true){
+                        console.log('girou')
+                    }else{
+                        console.log('cadeira não girou')
+                    }
+                }
+            }
+
+            let cadeira = new Cadeira(4,false,'azul')
+            cadeira.girarCadeira()
+
+            
+        </script>
+
+    </head>
+    <body>
+
+    </body>
+</html>

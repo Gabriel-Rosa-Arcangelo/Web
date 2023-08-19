@@ -1,0 +1,36 @@
+Desenvolvimento Web
+
+html5: - OK.
+css3: - inline e block, Posicionamento.
+
+css3 itermediário e avançado: - Parallax.
+
+HTML5 e CSS3 Recursos especiais: - Box sizing, Degradês, Sombras,
+Animações, Transições, Flexbox.
+
+Bootstrap4 e design responsivo: - Elementos flutuantes, Tamanhos e 
+bordas, Cards, jumbotron e Alinhamento de imagens, sistema de grid,,
+classes do flexbox, margin e wrap, carousel.
+
+Javascript: - OK.
+
+Javascript moderno (ES6) e OO : - Pilar do encapsulamento,operador
+super.
+
+Design Gráfico
+
+07 - Composição Honda
+09 - Shapes
+11 - Pen Tool
+13 - Arte Casamento
+15 - Objeto Inteligente
+17 - Filtros
+18 - Ações em Lote
+
+Inglês
+escrita : texto
+leitura : livros
+ouvir : filmes
+falar : videos
+
+

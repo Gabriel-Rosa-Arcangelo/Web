@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Babel</title>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <script type="text/babel">
+
+            let Carro = function() {
+                this.cor = 'azul'
+                this.modelo = 'Chevete'
+                this.velAtual = 0
+                this.velMax = 180
+
+                this.acelerar = function(){
+                    let vel = this.getVelAtual() + 50
+                    if(vel > this.velMax){
+                       vel = this.velMax 
+                    }
+                    this.setVelAtual(vel)
+                }
+                this.getVelAtual = function(){
+                    return this.velAtual
+                }
+                this.setVelAtual =  function(velAtual){
+                    this.velAtual = velAtual
+             }
+            }
+
+            let carro = new Carro()
+            console.log(carro.velAtual)
+            carro.acelerar()
+            carro.acelerar()
+            carro.acelerar()
+            carro.acelerar()
+            console.log(carro.velAtual)
+
+            let Carro2 = function() {
+                var velMax = 180
+                this.cor = 'azul'
+                this.modelo = 'Chevete'
+                this.velAtual = 0
+             
+
+                this.acelerar = function(){
+                    let vel = this.getVelAtual() + 50
+                    if(vel > velMax){
+                       vel = velMax 
+                    }
+                    this.setVelAtual(vel)
+                }
+                this.getVelAtual = function(){
+                    return this.velAtual
+                }
+                this.setVelAtual =  function(velAtual){
+                    this.velAtual = velAtual
+             }
+            }
+
+            let carro2 = new Carro2()
+            console.log(carro2)
+            console.log(carro)
+         
+            
+        </script>
+
+    </head>
+    <body>
+
+    </body>
+</html>

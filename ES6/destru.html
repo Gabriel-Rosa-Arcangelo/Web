@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Babel</title>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <script type="text/babel">
+
+            //destructuring 1
+
+           /* let frutas = ['Abacaxi','Uva','Pera','Mamão']
+            
+            let [a,b] = frutas
+
+            console.log(a,b)*/
+
+            //destructuring 2
+
+           /* let produto = {
+                descricao: 'Notebook',
+                preco: 1800,
+                detalhes:{
+                    fabricante: 'abc',
+                    modelo: 'xyz'
+                }
+            }
+
+        let {descricao, preco} = produto
+           let {descricao: d, preco: p} = produto
+            console.log(d,p)
+
+            token
+            array []
+            objeto {}*/
+
+             //destructuring 3
+
+            /*let arr = [10,20,30,40]
+
+            function teste([a,b]){
+                console.log(a,b)
+            }
+            
+            teste(arr)*/
+
+            //destructuring 4
+
+            let arr = [10,20,30,40]
+            let [a, ...resto] = arr
+            console.log([a,...resto])
+
+        </script>
+
+    </head>
+    <body>
+
+    </body>
+</html>
